@@ -1,7 +1,7 @@
-# observability-demos
+# Observability-demos
 Welcome Welcome to Observability Stuff. This repository contains the code and detailed explanations for setting up and understanding observability in Kubernetes using Prometheus, Grafana, Elasticsearch Fluentbit, Kibana, Jaeger, groundcover(eBPF), opentelemetry e.t.c.,.
 
-**What is Loki**
+**What is Graphana Loki**
 
 Loki is a highly efficient log aggregation system designed to store and query logs from your applications and infrastructure. Unlike traditional solutions such as Elasticsearch, which index the entire log content, Loki focuses solely on indexing metadata tags (labels) that accompany the logs. This unique approach significantly reduces costs and simplifies operational management.
 
