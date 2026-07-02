@@ -49,6 +49,7 @@ Manually deploying Loki, Promtail, and Grafana can be quite time-consuming due t
 Follow these steps to set up your logging stack on Kubernetes:
 
 **Deploy Loki:** Set up a Loki instance on your Kubernetes cluster.
+
 **Deploy Grafana: **Configure a Grafana dashboard for visualization, whether it is hosted within Kubernetes or externally.
 **Deploy Promtail: **Use a daemon set to deploy Promtail on every node so it can collect logs from all pods.
 **Use Helm:** Leverage a Helm chart to automate the configuration of Loki, Grafana, and Promtail.
@@ -60,7 +61,9 @@ By following these steps and utilizing a Helm chart, you can set up effective lo
 Leveraging the combination of Helm charts with Loki, Grafana, and Promtail significantly enhances your logging infrastructure, making it easier to monitor, analyze, and debug your applications.
 
 **Conclusion**
+
 This article on deploying Loki, Grafana, and Promtail within a Kubernetes cluster using a Helm chart. Throughout the lesson, we demonstrated how to efficiently collect application logs and customize log processing so that key information is extracted and labeled. 
+
 This log enrichment enables Loki to index and filter logs more effectively, providing better observability and troubleshooting capabilities in your Kubernetes environment.
 
 
